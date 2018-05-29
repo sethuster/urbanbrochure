@@ -1,4 +1,4 @@
-var text = ["Passionate", "Experianced", "Enthusiastic", "Professional"]
+var text = ["Passionate", "Experienced", "Enthusiastic", "Professional", "Fervent", "Rhapsodic"]
 var counter = 0;
 var elem = document.getElementById("flavor");
 var inst = setInterval(change, 30000)
