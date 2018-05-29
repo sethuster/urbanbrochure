@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;   
+}
+
+body {
+	/* The image used */
+    background-image: url("img/maroonbells.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+	background: rgba(50, 50, 50, 0.4);
+	border: 2px solid black;
+	text-align: center;
+}
+
+.top {
+	margin-top: 3em;
+}
+
+.col {
+	max-height: 8em;
+}
+
+h1 {
+	font-size: 3em;
+	color: white;
+	display: inline-flex;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+p {
+	color: white;
+}
+
+a {
+	color: #e6e6e6;
+}
+a:hover {
+	color: #e6e6e6;
+	text-shadow: 1px 1px 8px #e6e6e6;
+}
+.middle {	
+	font-size: 2em;
+}
+
+.bottom {	
+	font-size: 4em;
+}
+
+.sm-view {
+	display: none;
+}
+
+@media (max-width: 720px) {
+	.top {
+		margin-top: 1em;
+	}
+	h1 {
+		display: none;
+	}
+	.lg-view {
+		display: none;
+	}
+
+	.md-view {
+		display: none;
+	}
+
+	.sm-view {
+		display: inline-block;
+	}
+}
+@media (max-width: 1200px) and (min-width: 721px) {
+	.top {
+		margin-top: 3em;
+	}
+	.lg-view {
+		display: none;
+	}
+
+	.md-view {
+		display: inline-block;
+	}
+
+	.sm-view {
+		diplay: none;
+	}
+}
+@media (min-width: 1201px) {
+	.lg-view {
+		display: inline-block;
+	}
+
+	.md-view {
+		display: none;
+	}
+
+	.sm-view {
+		diplay: none;
+	}
+}
+
+@media (min-height: 900px) and (min-width: 1201px){
+	.top {
+		margin-top: 20em;
+	}
+}
+
+
+
